@@ -8,9 +8,10 @@ h1{
 
 section{
 display: flex;
+margin-bottom: 170px;
 
 }
-img{
+.image-size{
     height: 500px;
     width: 500px;
 }
@@ -19,11 +20,14 @@ img{
     width: 50%;
     padding-left: 5%;
 }
-.font-famaly{
-    font-size: 18px;
+p{    font-size: 18px;
     line-height: 1.5em;
-    font-family: cursive;
 }
+.font-famaly{
+    font-family: cursive;
+
+}
+
 button{
     background-color: orangered;
     font-size: 18px;
@@ -33,4 +37,13 @@ button{
      font-weight: 700;
      background-image: linear-gradient(orangered, tomato);
 
+}
+
+.radius {
+border-radius: 50%;
+height: 400px;
+width: 450px;
+}
+.font-famaly2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
