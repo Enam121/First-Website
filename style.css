@@ -67,4 +67,9 @@ width: 450px;
 }
 footer p{
     text-align: center;
+    margin-top: 30px;
+}
+footer{
+    background-color: darkslategrey;
+    height: 200px;
 }
